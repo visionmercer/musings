@@ -13,7 +13,7 @@ do
         v=cos(i+y) + cos(j/(n*_pi)+x)
         x = u + t
         y = v + t
-        pset(u*100+w/2, v*100+w/2),_rgb(i,j,99)
+    pset (u*100+w/2, v*100+w/2),_rgb(i,j,99)
     next j,i
     t = t + .1
 _display
